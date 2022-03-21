@@ -1,0 +1,39 @@
+.container {
+  border: none;
+  /* outline: none; */
+  background-image: url('../../../../assets/woodtexture-29.jpg');
+  border-radius: 45%;
+  width: 20%;
+  height: 110%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 1%;
+  -moz-box-shadow: inset 0 0 10px #000000;
+  -webkit-box-shadow: inset 0 0 10px #000000;
+  box-shadow: inset 0 0 10px #000000;
+  cursor: grabbing;
+}
+.container:hover {
+  border: 2px solid red;
+}
+span {
+  color: red;
+}
+.pebble {
+  /* background-image: url('./basketball.png');
+  background-image: url('./pebble4.png');
+  background-image: url('./pebble3.png');
+  background-image: url('./pebble5.png'); */
+  background-image: url('../../../../assets/pebble6.png');
+  -webkit-box-shadow: 9px 20px 21px -2px rgba(0,0,0,0.83); 
+  box-shadow: 9px 20px 21px -2px rgba(0,0,0,0.83); 
+  background-size: cover;
+  border-radius: 50%;
+  width: 1.6vw;
+  height: 2.8vh;
+  margin: 0.1vw;
+  
+}
